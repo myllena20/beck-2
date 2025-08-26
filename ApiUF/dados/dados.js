@@ -136,4 +136,4 @@ const colecaoUf = [
     },
 ]
 
-export default colecaoUf;
+export default colecaoUf; 
