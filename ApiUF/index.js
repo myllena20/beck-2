@@ -33,7 +33,7 @@ app.get('/ufs/:siglauf', (req, res) => {
 
 app.get('/ufs/:iduf', (req, res) => {
     const idUF = req.params.iduf
-    const uf = buscarUfsPorId(idUf);
+    const uf = buscarUfsPorId(idUF);
 
     
     if (uf) {
