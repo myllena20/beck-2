@@ -1,6 +1,6 @@
 //import colecaoUf from './dados/dados.js';
 import express from 'express';
-import { buscarUfs, buscarUfsPorId, buscarUfsPorNome, buscarUfsPorSigla } from './servicos/servico.js';
+import { buscarUfs, buscarUfsPorId, buscarUfsPorNome, buscarUfsPorSigla } from '../servicos/servico.js';
 
 const app = express();
 
